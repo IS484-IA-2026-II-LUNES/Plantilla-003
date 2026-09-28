@@ -1,0 +1,23 @@
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporales e historiales ocultos de Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Entornos virtuales (por si un alumno lo crea por error dentro de la carpeta del proyecto)
+venv*/
+.venv*/
+env/
+.env/
+ENV/
+.env
+.venv
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
